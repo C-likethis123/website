@@ -33,7 +33,7 @@
         },
         data: {
           roles: ['user', 'admin'],
-          pageTitle: 'Contacts Create'
+          pageTitle: 'Create Contact'
         }
       })
       .state('contacts.edit', {

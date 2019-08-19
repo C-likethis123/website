@@ -16,6 +16,10 @@ var AboutSchema = new Schema({
     required: 'Please fill About name',
     trim: true
   },
+  description: {
+    type: String,
+    default: ''
+  },
   created: {
     type: Date,
     default: Date.now
