@@ -11,15 +11,9 @@
     // Set top bar menu items
     menuService.addMenuItem('topbar', {
       title: 'About',
-      state: 'abouts',
-      type: 'dropdown',
+      state: 'abouts.list',
+      type: 'button',
       roles: ['*']
-    });
-
-    // Add the dropdown list item
-    menuService.addSubMenuItem('topbar', 'abouts', {
-      title: 'List Abouts',
-      state: 'abouts.list'
     });
 
     // Add the dropdown create item

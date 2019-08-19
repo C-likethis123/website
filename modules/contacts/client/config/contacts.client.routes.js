@@ -20,7 +20,7 @@
         controller: 'ContactsListController',
         controllerAs: 'vm',
         data: {
-          pageTitle: 'Contacts List'
+          pageTitle: 'Contact Me'
         }
       })
       .state('contacts.create', {

@@ -10,16 +10,10 @@
   function menuConfig(menuService) {
     // Set top bar menu items
     menuService.addMenuItem('topbar', {
-      title: 'Contacts',
-      state: 'contacts',
-      type: 'dropdown',
+      title: 'Contact',
+      state: 'contacts.list',
+      type: 'button',
       roles: ['*']
-    });
-
-    // Add the dropdown list item
-    menuService.addSubMenuItem('topbar', 'contacts', {
-      title: 'List Contacts',
-      state: 'contacts.list'
     });
 
     // Add the dropdown create item
