@@ -73,8 +73,8 @@ figure {
   position: relative; }
 
 #colorlib-aside {
-  padding-top: 3em;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   float: left;
   width: 300px;
   position: fixed;
@@ -110,7 +110,7 @@ figure {
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 40px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
