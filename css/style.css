@@ -199,21 +199,6 @@ figure {
         bottom: 0; } }
     #colorlib-aside .colorlib-footer span {
       display: block; }
-    #colorlib-aside .colorlib-footer ul {
-      padding: 0;
-      margin: 0; }
-      #colorlib-aside .colorlib-footer ul li {
-        padding: 0;
-        margin: 0;
-        display: inline;
-        list-style: none; }
-        #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
-          padding: 4px; }
-          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
-            text-decoration: none;
-            outline: none;
-            color: #2c98f0; }
 
 .container-wrap {
   max-width: 1170px;
@@ -1306,6 +1291,9 @@ body.offcanvas {
   height: 130px; }
 
 .colorlib-nav-toggle {
+  position: sticky;
+  width: 100%;
+  background-color: white;
   cursor: pointer;
   text-decoration: none; }
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
