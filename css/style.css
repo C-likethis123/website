@@ -1291,6 +1291,9 @@ body.offcanvas {
   height: 130px; }
 
 .colorlib-nav-toggle {
+  position: sticky;
+  width: 100%;
+  background-color: white;
   cursor: pointer;
   text-decoration: none; }
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
