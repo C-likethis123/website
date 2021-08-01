@@ -941,6 +941,9 @@ body.offcanvas {
       display: block;
       position: relative;
       height: 300px; }
+      .project .desc .con h3 {
+        color: white;
+      }
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
@@ -1420,3 +1423,31 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+  ul.actions {
+    list-style: none;
+    display: flex;
+    margin-top: revert;
+    margin-left: -40px;
+  }
+
+  ul.actions > li {
+    border: 1px solid white;
+    display: flex;
+    color: white;
+    padding: 0 0 0 1em;
+  }
+
+  ul.actions > li > a {
+    color: white;
+    padding: 0 1em;
+  }
+
+  ul.actions > li:hover {
+    background-color: white;
+    color: #2c98f0;
+  }
+
+  ul.actions > li > a:hover {
+    color: #2c98f0;
+  }
