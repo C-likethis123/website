@@ -1436,6 +1436,7 @@ body.offcanvas {
     display: flex;
     color: white;
     padding: 0 0 0 1em;
+    margin-right: 1em;
   }
 
   ul.actions > li > a {
