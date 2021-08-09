@@ -1,5 +1,4 @@
 const projectNode = document.querySelector(".colorlib-work");
-const html = commonTags.html;
 
 const header = html`
   <div class="row">

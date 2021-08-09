@@ -202,10 +202,9 @@
 					</div>
 				</section>
 
-				<section class="colorlib-experience" data-section="experience">
-				</section>
+        <section class="colorlib-experience" data-section="experience"></section>
 
-				<section class="colorlib-work" data-section="projects" />
+          <section class="colorlib-work" data-section="projects"></section>
 
 				<section class="colorlib-contact" data-section="contact">
 					<div class="colorlib-narrow-content">
@@ -273,11 +272,16 @@
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
 
-  <!-- HTML Markup Utilities -->
-  <script src="https://unpkg.com/common-tags"></script>
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+  <!-- HTML Markup Utilities needed -->
+  <script src="https://unpkg.com/common-tags">
+  </script>
+  <script>
+    const html = commonTags.html;
+  </script>
+
   <script src="data/jobs.js"></script>
   <script src="js/components/jobs.js"></script>
 

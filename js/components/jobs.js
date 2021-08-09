@@ -1,6 +1,5 @@
 const node = document.querySelector(".colorlib-experience");
 
-node.innerHTML = '';
 const title = `
   <div class="row">
 	  <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -14,7 +13,7 @@ const joblists = jobs.map(({
   company,
   duration,
   tasks
-}, index) => `
+}, index) => html`
   <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
     <div class="timeline-entry-inner">
       <div class="timeline-icon color-${index + 1}">
@@ -42,7 +41,7 @@ const endingIcon = `
       </article>
 `;
 
-node.innerHTML = `
+node.innerHTML = html`
 <div class="colorlib-narrow-content">
   ${title}
   <div class="row">
