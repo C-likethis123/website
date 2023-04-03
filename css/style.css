@@ -34,12 +34,19 @@ a {
 p {
   margin-bottom: 1.5em; }
 
+/* Fonts */
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
-  font-family: "Playfair Display", Georgia, serif;
-  font-weight: 500;
+  font-weight: 800;
   margin: 0 0 30px 0; }
 
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+/* Fonts */
 ::-webkit-selection {
   color: #fff;
   background: #2c98f0; }
@@ -430,12 +437,12 @@ body.offcanvas {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
   margin-top: 15px; }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
+/* .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
   font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 500; }
+  font-weight: 500; } */
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
+/* .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
@@ -444,7 +451,7 @@ body.offcanvas {
   opacity: .4;
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
-  font-size: 16px; }
+  font-size: 16px; } */
 
 .progress-wrap h3 {
   font-size: 16px;
@@ -557,16 +564,16 @@ body.offcanvas {
   .colorlib-feature .colorlib-text {
     padding-left: 120px;
     width: 100%; }
-    .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
+    /* .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
-      padding: 0; }
-    .colorlib-feature .colorlib-text h3 {
+      padding: 0; } */
+    /* .colorlib-feature .colorlib-text h3 {
       font-weight: 500;
       margin-bottom: 20px;
       color: rgba(0, 0, 0, 0.7);
       font-size: 14px;
       letter-spacing: 3px;
-      text-transform: uppercase; }
+      text-transform: uppercase; } */
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -623,7 +630,7 @@ body.offcanvas {
         .project .desc .con .icon i {
           font-size: 16px;
           color: #333333; }
-    .project .desc h3 {
+    /* .project .desc h3 {
       font-family: "Quicksand", Arial, sans-serif;
       font-size: 16px;
       font-weight: 500;
@@ -639,7 +646,7 @@ body.offcanvas {
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
       .project .desc h3 a {
-        color: #fff; }
+        color: #fff; } */
     .project .desc span {
       display: block;
       color: rgba(255, 255, 255, 0.7);
@@ -658,11 +665,11 @@ body.offcanvas {
       .project .desc {
         opacity: 1;
         background: rgba(0, 0, 0, 0.4); }
-        .project .desc h3 {
+        /* .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-          color: #000; }
+          color: #000; } */
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }

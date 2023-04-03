@@ -3,7 +3,7 @@ const node = document.querySelector(".colorlib-experience");
 const title = `
   <div class="row">
 	  <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-		  <span class="heading-meta">Work Experience</span>
+		  <h2 class="heading-meta">Work Experience</h2>
 		</div>
 	</div>
 `;

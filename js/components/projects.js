@@ -3,14 +3,14 @@ const projectNode = document.querySelector(".colorlib-work");
 const header = html`
   <div class="row">
     <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-      <span class="heading-meta">My Projects</span>
+      <h2 class="heading-meta">My Projects</h2>
     </div>
   </div>`;
 
 const renderProjectType = (projectType) => html`
   <div class="row">
     <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-      <h2 class="colorlib-heading animate-box">${projectType}</h2>
+      <h3 class="animate-box">${projectType}</h3>
     </div>
   </div>`;
 
@@ -24,7 +24,7 @@ const renderIndividualProject = ({name,
       <div class="project" style="background-image: url(images/${image})">
         <div class="desc">
           <div class="con">
-            <h3>${name}</h3>
+            <h4>${name}</h4>
             <span>${description}</span>
             <ul class="actions">
               ${github ? `
