@@ -21,8 +21,10 @@ const joblists = jobs.map(({
       </div>
 
       <div class="timeline-label">
-        <h2><a href="#">${position}, ${company}</a>
-        <div><span>${duration}</span></div></h2>
+        <h2>
+          ${position}, ${company}
+          <div>${duration}</div>
+        </h2>
           <p>
             <ul>
               ${tasks.map(task => `<li>${task}</li>`)}

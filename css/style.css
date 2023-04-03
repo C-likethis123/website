@@ -608,7 +608,7 @@ body.offcanvas {
       display: block;
       position: relative;
       height: 300px; }
-      .project .desc .con h3 {
+      .project .desc .con h4 {
         color: white;
       }
       .project .desc .con .icon {
