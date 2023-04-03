@@ -1,5 +1,11 @@
 const jobs = [
   {
+    company: "Indeed Singapore",
+    position: "Software Development Engineer",
+    duration: "Jul 2022 - Mar 2023",
+    tasks: []
+  },
+  {
     company: "Shopee",
     position: "Software Engineering Intern",
     duration: "May 2021 - Aug 2021",

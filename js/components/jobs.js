@@ -17,7 +17,6 @@ const joblists = jobs.map(({
   <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
     <div class="timeline-entry-inner">
       <div class="timeline-icon color-${index + 1}">
-        <i class="icon-pen2"></i>
       </div>
 
       <div class="timeline-label">
