@@ -32,14 +32,14 @@ const renderIndividualProject = ({name,
                   <div class="colorlib-icon">
                     <i class="icon-social-github"></i>
                   </div>
-                  <a href=${github}>Code</a>
+                  <a target="_blank" href=${github}>Code</a>
                 </li>` : ''}
               ${demo ? `
                 <li>
                   <div class="colorlib-icon">
                     <i class="icon-world"></i>
                   </div>
-                  <a href=${demo}>Demo</a>
+                  <a target="_blank" href=${demo}>Demo</a>
                 </li>
               ` : ''}
             </ul>
