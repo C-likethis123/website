@@ -86,12 +86,11 @@ h3 {
 }
 
 #colorlib-aside {
-  padding-top: 50px;
+  padding-top: 9em;
   padding-bottom: 20px;
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -114,8 +113,6 @@ h3 {
 #colorlib-aside .position {
   display: block;
   margin-bottom: 2em;
-  font-size: 12px;
-  text-transform: uppercase;
 }
 
 #colorlib-aside #colorlib-logo {
@@ -264,13 +261,22 @@ h3 {
   }
 }
 
-#colorlib-hero {
+section {
+  padding-top: 9em;
   min-height: 500px;
   width: 100%;
   float: left;
   margin-bottom: 10em;
   clear: both;
 }
+
+/* #colorlib-hero {
+  min-height: 500px;
+  width: 100%;
+  float: left;
+  margin-bottom: 10em;
+  clear: both;
+} */
 
 body.offcanvas {
   overflow-x: hidden;
@@ -313,8 +319,8 @@ body.offcanvas .colorlib-nav-toggle {
   padding: 0;
 }
 
-.colorlib-about {
-  padding-top: 4em;
+/* .colorlib-about {
+  padding-top: 9em;
   padding-bottom: 9em;
   clear: both;
   width: 100%;
@@ -332,7 +338,7 @@ body.offcanvas .colorlib-nav-toggle {
   clear: both;
   width: 100%;
   display: block;
-}
+} */
 
 /* @media screen and (max-width: 768px) {
     .colorlib-experience,
