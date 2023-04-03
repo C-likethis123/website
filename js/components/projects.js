@@ -21,7 +21,7 @@ const renderIndividualProject = ({name,
   demo,
 }) => html`
     <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-      <div class="project" style="background-image: url(images/${image})">
+      <div class="project" style="background-size: cover; background-image: url(images/${image})">
         <div class="desc">
           <div class="con">
             <h4>${name}</h4>
