@@ -1,12 +1,18 @@
 const jobs = [
   {
     company: "Indeed Singapore",
-    position: "Software Development Engineer",
+    position: "Software Developer",
     duration: "Jul 2022 - Mar 2023",
-    tasks: []
+    tasks: [
+      "Implemented full stack feature for reporting chats in Indeed Anon, a chat app that connects users so they can ask questions about job roles",
+      "Implemented A/B tests in Indeed Anon to experiment with features to increase user engagement, resulting in a 1̃00% increase in user matches",
+      "Implemented logging in Indeed Anon to track product metrics that helped inform further product decisions, and helped 2-3 external teams implement logging in their work",
+      "Developed a form to collect jobseeker information for Indeed’s resume editor using a React frontend and GraphQL API, with support for 24 different countries. Added unit and end-to-end tests with Jest and Cypress.",
+      "Led a design review to migrate a widely used package away from a legacy codebase into its own repository, outlining steps to test, deploy and inform existing users of the migration",
+    ]
   },
   {
-    company: "Shopee",
+    company: "Shopee Singapore",
     position: "Software Engineering Intern",
     duration: "May 2021 - Aug 2021",
     tasks: [
@@ -14,9 +20,9 @@ const jobs = [
     ]
   },
   {
-    company: "Switcheo",
+    company: "Switcheo Labs",
     position: "Frontend Developer Intern",
-    duration: "July 2020 - Dec 2020",
+    duration: "Jul 2020 - Dec 2020",
     tasks: [
       "Worked on DEMEX, a decentralised exchange for margin and derivatives trading, using React, Typescript and CSS",
       "Implemented responsive web designs with light/dark theming in partnership with UI/UX designers",
@@ -38,7 +44,7 @@ const jobs = [
   {
     company: "DSO National Laboratories",
     position: "Information Division Intern",
-    duration: "Jan 2018 - April 2018",
+    duration: "Jan 2018 - Apr 2018",
     tasks: [
       "Developed a proof of concept geofencing program using the Open Source Trusted Execution Environment Framework (OP-TEE) that runs on a Raspberry Pi",
       "The OP-TEE framework aims to provide an isolated environment to run programs that require a more secure environment than normal applications."
