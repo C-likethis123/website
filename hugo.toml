@@ -25,6 +25,13 @@ theme = 'not-much'
     title = "About"
     url = "/about"
     weight = 2
+
+  [[menu.main]]
+    identifier = "experiences"
+    name = "experiences"
+    title = "Experiences"
+    url = "/experiences"
+    weight = 4
   
   [[menu.main]]
     identifier = "github"
