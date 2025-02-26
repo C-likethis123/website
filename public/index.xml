@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chow Jia Ying</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Chow Jia Ying</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Feb 2025 22:07:34 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frontend Project Compilation</title>
+      <link>//localhost:1313/portfolio/frontend-project-compilation/</link>
+      <pubDate>Wed, 26 Feb 2025 22:07:34 +0800</pubDate>
+      <guid>//localhost:1313/portfolio/frontend-project-compilation/</guid>
+      <description>&lt;p&gt;As part of improving my frontend skills, I did smaller projects on various apps such as the Odin Project and Frontend Mentor:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://c-likethis123.github.io/odin_project&#34;&gt;Odin Project&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://c-likethis123.github.io/frontend_mentor/&#34;&gt;Frontend Mentor&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Blogger Alternative</title>
+      <link>//localhost:1313/portfolio/blogger-alternative/</link>
+      <pubDate>Wed, 26 Feb 2025 21:19:12 +0800</pubDate>
+      <guid>//localhost:1313/portfolio/blogger-alternative/</guid>
+      <description>&lt;p&gt;I love to write, I still do. When I started reading articles, I would take notes along with these articles.&#xA;Google Blogger was a way for me to store my notes.&lt;/p&gt;&#xA;&lt;p&gt;I wanted to improve my writing experience - so I decided to create a wrapper that uses the Google Blogger API to store posts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;iterations&#34;&gt;Iterations&lt;/h2&gt;&#xA;&lt;p&gt;The project went through 3 iterations:&lt;/p&gt;&#xA;&lt;h3 id=&#34;frontend&#34;&gt;Frontend&lt;/h3&gt;&#xA;&lt;p&gt;The first iteration was a MERN stack app that allowed me to create posts in a Markdown/WYSIWYG editor, view and delete posts. Posts could also be downloaded as a Word document.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

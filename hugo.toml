@@ -1,0 +1,34 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Chow Jia Ying'
+theme = 'not-much'
+
+# Navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "portfolio"
+    title = "portfolio"
+    url = "/portfolio"
+    weight = 3
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "About"
+    url = "/about"
+    weight = 2
+  
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/C-likethis123"
+    weight = 4
