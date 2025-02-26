@@ -6,8 +6,15 @@
     <description>Recent content in Portfolios on Chow Jia Ying</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Feb 2025 22:07:34 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 23:52:37 +0800</lastBuildDate>
     <atom:link href="//localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Client</title>
+      <link>//localhost:1313/portfolio/git-client/</link>
+      <pubDate>Wed, 26 Feb 2025 23:52:37 +0800</pubDate>
+      <guid>//localhost:1313/portfolio/git-client/</guid>
+      <description>&lt;p&gt;Since I wanted to learn Git internals and C++, I made a Git Client. For now, it is still a work in progress and mostly follows the &lt;a href=&#34;https://wyag.thb.lt/&#34;&gt;Write yourself a Git&lt;/a&gt; tutorial. The plan is to extend the project beyond what the tutorial teaches, so I can learn some git internals of my own.&lt;/p&gt;&#xA;&lt;p&gt;Access the repository &lt;a href=&#34;https://github.com/C-likethis123/git-cpp&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Frontend Project Compilation</title>
       <link>//localhost:1313/portfolio/frontend-project-compilation/</link>
